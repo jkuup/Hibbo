@@ -5,9 +5,12 @@ import (
 	"strings"
 )
 
+// 导航结构体
 type Nav struct {
+	// 标题
 	Title string
-	Path  string
+	// 文章路径
+	Path string
 }
 type Navs []Nav
 
