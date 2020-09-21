@@ -1,5 +1,5 @@
 <p align="center">
-    <a href="https://www.alphkiee.xyz" target="_blank">
+    <a href="http://www.alphkiee.xyz" target="_blank">
         <img src="https://raw.githubusercontent.com/jkuup/Hibbo/master/img/gopher.png?v=0.2.2" width="180" />
     </a>
     <h3 align="center">Hibbo</h3>
