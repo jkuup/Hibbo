@@ -1,15 +1,15 @@
 <p align="center">
     <a href="https://www.alphkiee.xyz" target="_blank">
-        <img src="https://raw.githubusercontent.com/jkuup/Pibbo/master/img/gopher.png?v=0.2.2" width="180" />
+        <img src="https://raw.githubusercontent.com/jkuup/Hibbo/master/img/gopher.png?v=0.2.2" width="180" />
     </a>
-    <h3 align="center">Pibbo</h3>
+    <h3 align="center">Hibbo</h3>
     <p align="center">Golang 实现的Blog</p>
     <p align="center">
-        <a href="https://travis-ci.com/jkuup/Pibbo"><img src="https://travis-ci.com/jkuup/Pibbo.svg?branch=master"></a>
-        <a href="https://github.com/jkuup/Pibbo/releases"><img src="https://img.shields.io/badge/Version-v0.0.1-red.svg"></a>
-        <a href="https://goreportcard.com/report/github.com/jkuup/Pibbo"><img src="https://goreportcard.com/badge/github.com/jkuup/Pibbo?v=0.0.1"></a>
-        <a href="https://hub.docker.com/r/jkuup/Pibbo"><img src="https://img.shields.io/badge/Docker-Latest-orange"></a>
-        <a href="https://github.com/jkuup/Pibbo/blob/master/LICENSE"><img src="https://img.shields.io/badge/LICENSE-MIT-orange.svg"></a>
+        <a href="https://travis-ci.com/jkuup/Hibbo"><img src="https://travis-ci.com/jkuup/Hibbo.svg?branch=master"></a>
+        <a href="https://github.com/jkuup/Hibbo/releases"><img src="https://img.shields.io/badge/Version-v0.0.1-red.svg"></a>
+        <a href="https://goreportcard.com/report/github.com/jkuup/Hibbo"><img src="https://goreportcard.com/badge/github.com/jkuup/Hibbo?v=0.0.1"></a>
+        <a href="https://hub.docker.com/r/jkuup/Hibbo"><img src="https://img.shields.io/badge/Docker-Latest-orange"></a>
+        <a href="https://github.com/jkuup/Hibbo/blob/master/LICENSE"><img src="https://img.shields.io/badge/LICENSE-MIT-orange.svg"></a>
     </p>
 </p>
 <br/>
@@ -42,22 +42,22 @@ content目录下的一级目录代表一个分类，如果一级目录下有子�
         "tags": ["BLOG"，"其它tag"]，//可以不填，不过最好添加一些tag，后面可以做一些好玩的东西。
         "title": "文章的标题，一般不用填写，默认使用文件名"，
         "description": "文章描述，不填写自动取正文200个字，可以在app.json中配置"，
-        "author": "jkuup"， //文章作者，可以不用填写，现在也没有使用到
+        "author": "Jkuup"， //文章作者，可以不用填写，现在也没有使用到
         "musicId":"网易云的音乐ID" //文章的配歌
     }
     ```
 ```
 ## Deployment
 
-Pibbo uses Go Modules to manage dependencies.
+Hibbo uses Go Modules to manage dependencies.
 
 ```zsh
-$ git clone https://github.com/jkuup/Pibbo.git
+$ git clone https://github.com/jkuup/Hibbo.git
 $ go run main.go
 ```
 
 ## License
 
-© 2020, jkuup. Released under [MIT License](https://opensource.org/licenses/mit-license.php).
+© 2020, jkuup. Released under [Apache2.0 License](http://www.apache.org/licenses/LICENSE-2.0).
 
-**Pibbo** is authored and maintained by [@jkuup](http://github.com/jkuup).
+**Hibbo** is authored and maintained by [@Jkuup](http://github.com/jkuup).
