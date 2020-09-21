@@ -14,9 +14,6 @@
 </p>
 <br/>
 
-Jkuup's Blog
-
-
 ## Documentation
 
 - 新建一个 git 仓库，用来存放你的文章，但是对你的目录结构有一些要求
