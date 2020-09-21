@@ -1,15 +1,15 @@
 <p align="center">
     <a href="http://www.alphkiee.xyz" target="_blank">
-        <img src="https://raw.githubusercontent.com/jkuup/Hibbo/master/img/gopher.png?v=0.2.2" width="180" />
+        <img src="https://raw.githubusercontent.com/jkuup/Pibbo/master/img/gopher.png?v=0.2.2" width="180" />
     </a>
-    <h3 align="center">Hibbo</h3>
+    <h3 align="center">Pibbo</h3>
     <p align="center">Golang 实现的Blog</p>
     <p align="center">
-        <a href="https://travis-ci.com/jkuup/Hibbo"><img src="https://travis-ci.com/jkuup/Hibbo.svg?branch=master"></a>
-        <a href="https://github.com/jkuup/Hibbo/releases"><img src="https://img.shields.io/badge/Version-v0.0.1-red.svg"></a>
-        <a href="https://goreportcard.com/report/github.com/jkuup/Hibbo"><img src="https://goreportcard.com/badge/github.com/jkuup/Hibbo?v=0.0.1"></a>
-        <a href="https://hub.docker.com/r/jkuup/Hibbo"><img src="https://img.shields.io/badge/Docker-Latest-orange"></a>
-        <a href="https://github.com/jkuup/Hibbo/blob/master/LICENSE"><img src="https://img.shields.io/badge/LICENSE-MIT-orange.svg"></a>
+        <a href="https://travis-ci.com/jkuup/Pibbo"><img src="https://travis-ci.com/jkuup/Pibbo.svg?branch=master"></a>
+        <a href="https://github.com/jkuup/Pibbo/releases"><img src="https://img.shields.io/badge/Version-v0.0.1-red.svg"></a>
+        <a href="https://goreportcard.com/report/github.com/jkuup/Pibbo"><img src="https://goreportcard.com/badge/github.com/jkuup/Pibbo?v=0.0.1"></a>
+        <a href="https://hub.docker.com/r/jkuup/Pibbo"><img src="https://img.shields.io/badge/Docker-Latest-orange"></a>
+        <a href="https://github.com/jkuup/Pibbo/blob/master/LICENSE"><img src="https://img.shields.io/badge/LICENSE-MIT-orange.svg"></a>
     </p>
 </p>
 <br/>
@@ -46,10 +46,10 @@ content目录下的一级目录代表一个分类，如果一级目录下有子�
 ```
 ## Deployment
 
-Hibbo uses Go Modules to manage dependencies.
+Pibbo uses Go Modules to manage dependencies.
 
 ```zsh
-$ git clone https://github.com/jkuup/Hibbo.git
+$ git clone https://github.com/jkuup/Pibbo.git
 $ go run main.go
 ```
 
@@ -57,4 +57,4 @@ $ go run main.go
 
 © 2020, jkuup. Released under [Apache2.0 License](http://www.apache.org/licenses/LICENSE-2.0).
 
-**Hibbo** is authored and maintained by [@Jkuup](http://github.com/jkuup).
+**Pibbo** is authored and maintained by [@Jkuup](http://github.com/jkuup).
