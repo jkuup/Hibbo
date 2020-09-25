@@ -1,0 +1,18 @@
+{
+  "port": 8080,
+  "pageSize": 3,
+  "descriptionLen": 200,
+  "author": "Jkuup",
+  "icp": "皖ICP备15999960625号",
+  "webHookSecret": "Jkuup",
+  "categoryDisplayQuantity": 6,
+  "utterancesRepo": "Jkuup/Blog",
+  "timeLayout": "2006.01.02 15:04",
+  "siteName": "Jkuup's Personal Blog",
+  "htmlKeywords": "Jkuup blog Golang",
+  "htmlDescription": "Jkuup's Personal blog",
+  "documentGitUrl": "https://github.com/jkuup/Blog.git",
+  "themeColor": "#f44336",
+  "dashboardEntrance": "/admin",
+  "themeOption": ["#673ab7","#f44336","#9c27b0","#2196f3","#607d8b","#795548"]
+}
