@@ -1,0 +1,55 @@
+{{template "header" .}}
+<div class="sub-title">- {{ .Title }} -</div>
+
+<ul class="articles">
+    {{range .Data.List }}
+        <li>
+            <h2>
+                <a class="title" href="/article?key={{ .ShortUrl }}">{{ .Title }}</a>
+            </h2>
+            <div class="article-info">
+            {{ if ne .Category "" }}
+                <span>
+                    <img class="icon" src="/public/img/folder.svg" alt="">
+                    <span>
+                        分类于
+                        <a class="category" href="/?category={{ .Category }}">{{ .Category }}</a>
+                    </span>
+                </span>
+                <span class="divider-line"></span>
+            {{ end }}
+                <span>
+                    <img class="icon" src="/public/img/date.svg" alt="">
+                    <span>发表于{{ .Date.Format "2006-01-02 15:04" }}</span>
+                </span>
+            </div>
+            <div class="description"> {{ .Description }}...</div>
+            <a class="read-all" href="/article?key={{ .ShortUrl }}" rel="contents">
+                阅读全文 »
+            </a>
+            <div class="article-eof"></div>
+        </li>
+    {{end}}
+</ul>
+
+<ul class="pagination">
+    {{ range $page := SpreadDigit .Data.TotalPage  }}
+        <li
+                class="{{ if eq $page $.Data.Page }}active{{end}}"
+                {{ if ne $page $.Data.Page }}onclick="goPage({{$page}})"{{end}}
+        >
+            <a  href="javascript:;">{{ $page }}</a>
+        </li>
+    {{end}}
+    <li style="color: #bfbfbf;">
+        [{{ .Data.Total }}]
+    </li>
+</ul>
+<script>
+    var urlParams = currentUrlToParams();
+    function goPage(page) {
+        urlParams.page = page
+        window.location.href = "/" + obj2StrParams(urlParams)
+    }
+</script>
+{{template "footer" .}}
