@@ -146,7 +146,7 @@ func ReadArticleDetail(path string) (ArticleDetail, error) {
 	if err != nil {
 		return articleDetail, err
 	}
-	articleDetail.Article.TotalViews += 1314
+	articleDetail.Article.TotalViews += 1
 	return articleDetail, nil
 }
 

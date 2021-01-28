@@ -49,7 +49,7 @@ func init() {
 	}
 
 	Cfg.AppName = "Github"
-	Cfg.Version = 0.1
+	Cfg.Version = 1.0
 	Cfg.DocumentDir = Cfg.CurrentDir + "/" + repoName
 	Cfg.GitHookUrl = "/api/git_push_hook"
 	Cfg.AppRepository = "https://github.com/jkuup/"

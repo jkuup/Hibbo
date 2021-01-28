@@ -16,7 +16,7 @@ func Category(c *gin.Context) {
 	//categoriesTemplate.WriteData(c.Writer, models.BuildViewData("Blog", result))
 
 	c.HTML(http.StatusOK, "categories.html", gin.H{
-		"Title":  "Blog",
+		"Title":  "Categories",
 		"Data":   result,
 		"Config": config.Cfg,
 		"Navs":   models.Navigation,
